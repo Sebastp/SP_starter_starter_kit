@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": [
+    "react",
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "semi": ["warn", "never"],
+    "space-before-function-paren": "off",
+    "spaced-comment": "off",
+    "react/no-children-prop": "off",
+    "react/prop-types": 1,
+    "comma-dangle": "off",
+    "quotes": ["warn", "single"],
+    "eol-last": "off",
+    "new-cap": "off",
+    "prefer-const": "warn",
+    "no-var": "warn"
+  }
+}

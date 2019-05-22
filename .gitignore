@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+
+# production
+/client/build
+/server/build
+
+/client/src/env.js
+.env
+
+npm-debug.log*

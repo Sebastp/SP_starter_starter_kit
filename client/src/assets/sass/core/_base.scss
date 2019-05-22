@@ -1,0 +1,54 @@
+html {
+  overflow-x:hidden;
+}
+
+body {
+  color: $black;
+  font-family: $poppins;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  cursor: default;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+
+#index{
+  display: block;
+  position: relative;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+
+
+.cont-width_0{
+  margin: auto;
+  padding: 0px 40px;
+  max-width: 1220px; //40+40=80
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
+
+
+// =====================================================
+//    MEDIA QUERIES
+// =====================================================
+// Small
+@media (min-width: 544px) {}
+
+@media (max-width: 544px) {}
+
+// Medium
+@media (min-width: 768px) {}
+// Large
+@media (max-width: 992px) {}
+// Extra large
+@media (max-width: 1225px) {
+}
