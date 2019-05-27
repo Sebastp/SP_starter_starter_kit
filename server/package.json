@@ -1,5 +1,5 @@
 {
-  "name": "SP starter kit server side",
+  "name": "SP_starter_kit_server-side",
   "version": "1.0.0",
   "description": "Back-end Node Server",
   "main": "./src/server.js",

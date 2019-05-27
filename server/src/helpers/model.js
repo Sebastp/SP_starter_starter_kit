@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-var random = require('mongoose-simple-random');
 
 /**
  * Registers a Mongoose model, or returns the existing model if registered.
@@ -11,8 +10,6 @@ function model({ name, schema, index }) {
   } else {
     // register a new model
     const ModelSchema = new mongoose.Schema(schema)
-
-    ModelSchema.plugin(random)
     if (index) {
       ModelSchema.index(index)
     }

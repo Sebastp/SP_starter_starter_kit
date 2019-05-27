@@ -3,7 +3,6 @@ import express from 'express'
 import cors from 'cors'
 import compression from 'compression'
 import cookieParser from 'cookie-parser'
-import router from '~/core/router'
 import mongoose from 'mongoose'
 import { createServer } from 'http'
 
