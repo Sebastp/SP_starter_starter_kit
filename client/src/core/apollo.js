@@ -3,8 +3,8 @@ import { ApolloLink, split } from 'apollo-link'
 import { HttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { getMainDefinition } from 'apollo-utilities'
-import {LOCAL_SERVER_IP} from '../env'
-
+// import { LOCAL_SERVER_IP } from '../env'
+const LOCAL_SERVER_IP = 'localhost'
 
 const httpLink = new HttpLink({
   uri: 'http://'+LOCAL_SERVER_IP+':8080/graphql',

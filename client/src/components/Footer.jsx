@@ -3,9 +3,13 @@ import { Link } from 'react-router-dom'
 
 
 
-export default const Footer = (props) => {
+const Footer = (props) => {
   return (
     <footer>
     </footer>
   )
 }
+
+
+
+export default Footer
