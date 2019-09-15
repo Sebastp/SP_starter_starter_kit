@@ -1,5 +1,5 @@
 {
-  "name": "SP_starter_kit_client-side",
+  "name": "Flowlity_Test_client-side",
   "version": "1.0.0",
   "description": "Front-end React Client",
   "main": "index.js",
@@ -12,22 +12,19 @@
   "proxy": "http://localhost:8080",
   "dependencies": {
     "@babel/preset-env": "^7.0.0-rc.0",
-    "apollo-cache-inmemory": "^1.4.3",
-    "apollo-client": "^2.4.13",
-    "apollo-link": "^1.2.11",
-    "apollo-link-http": "^1.5.11",
-    "apollo-utilities": "^1.2.1",
+    "apexcharts": "^3.8.6",
+    "axios": "^0.19.0",
     "babel-plugin-root-import": "^6.1.0",
-    "graphql": "^14.1.1",
-    "graphql-tag": "^2.10.1",
     "node-sass-chokidar": "^1.3.3",
     "node-sass-tilde-importer": "^1.0.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.0",
-    "react-apollo": "^2.4.1",
+    "react-apexcharts": "^1.3.3",
     "react-dom": "^16.4.0",
+    "react-dropdown": "^1.6.4",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "styled-components": "^4.3.2"
   },
   "browserslist": [
     ">0.2%",
@@ -35,5 +32,5 @@
     "not op_mini all"
   ],
   "author": "Sebastian Pobocha",
-  "license": "ISC",
+  "license": "ISC"
 }

@@ -8,8 +8,7 @@
       {
         "extensions": [
           ".json",
-          ".gql",
-          ".graphql"
+          ".gql"
         ]
       }
     ],
