@@ -9,7 +9,7 @@
     "start": "react-scripts start",
     "build": "npm run build-css && react-scripts build"
   },
-  "proxy": "http://localhost:8080",
+
   "dependencies": {
     "@babel/preset-env": "^7.0.0-rc.0",
     "apollo-cache-inmemory": "^1.4.3",
