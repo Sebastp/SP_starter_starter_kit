@@ -1,33 +1,3 @@
-/* merriweather-regular - latin-ext_latin_cyrillic_cyrillic-ext_vietnamese */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Merriweather Regular"), local("Merriweather-Regular"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-regular.woff2") format("woff2"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-regular.woff") format("woff"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-regular.ttf") format("truetype"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-regular.svg#Merriweather") format("svg");
-  /* Legacy iOS */ }
-
-/* merriweather-700 - latin-ext_latin_cyrillic_cyrillic-ext_vietnamese */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-700.eot");
-  /* IE9 Compat Modes */
-  src: local("Merriweather Bold"), local("Merriweather-Bold"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-700.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-700.woff2") format("woff2"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-700.woff") format("woff"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-700.ttf") format("truetype"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-700.svg#Merriweather") format("svg");
-  /* Legacy iOS */ }
-
-/* merriweather-900 - latin-ext_latin_cyrillic_cyrillic-ext_vietnamese */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-900.eot");
-  /* IE9 Compat Modes */
-  src: local("Merriweather Black"), local("Merriweather-Black"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-900.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-900.woff2") format("woff2"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-900.woff") format("woff"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-900.ttf") format("truetype"), url("../fonts/merriweather-v19-latin-ext_latin_cyrillic_cyrillic-ext_vietnamese-900.svg#Merriweather") format("svg");
-  /* Legacy iOS */ }
-
 /* poppins-regular - latin */
 @font-face {
   font-family: 'Poppins';
@@ -89,31 +59,128 @@ body {
   -webkit-text-size-adjust: 100%;
   cursor: default;
   overflow-x: hidden;
-  max-width: 100vw; }
-  body ::selection {
-    background: rgba(58, 241, 234, 0.7); }
+  max-width: 100vw;
+  padding-bottom: 150px; }
 
 #index {
   display: block;
-  display: flex;
-  flex-direction: column;
   position: relative;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 0px 40px;
-  max-width: 1250px; }
+  margin: 0 auto; }
 
-.button-filled {
-  border-radius: 500px;
-  background-color: #000000;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  border: none;
-  padding: 15px 30px;
-  font-size: 0.75rem;
+.cont-width_0 {
+  margin: auto;
+  padding: 0px 40px;
+  max-width: 1220px;
+  width: 100%;
+  display: block; }
+
+.Dropdown-root .Dropdown-control {
   cursor: pointer; }
+  .Dropdown-root .Dropdown-control .Dropdown-placeholder {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 100px;
+    margin-right: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgba(27, 27, 27, 0.8);
+    font-size: 17px;
+    letter-spacing: 0.015em;
+    transition: color 0.25s;
+    text-align: left !important; }
+  .Dropdown-root .Dropdown-control .Dropdown-arrow-wrapper {
+    display: inline-block;
+    vertical-align: bottom;
+    opacity: 0.5;
+    transition: opacity 0.25s; }
+    .Dropdown-root .Dropdown-control .Dropdown-arrow-wrapper img {
+      width: auto;
+      height: 26px; }
+  .Dropdown-root .Dropdown-control:hover .Dropdown-arrow-wrapper {
+    opacity: 1;
+    transition: opacity 0.35s; }
+  .Dropdown-root .Dropdown-control:hover .Dropdown-placeholder {
+    color: rgba(27, 27, 27, 0.98);
+    transition: color 0.35s; }
+
+.Dropdown-root .Dropdown-menu {
+  background-color: #ffffff;
+  box-shadow: 1px 7px 16px -2px rgba(0, 0, 0, 0.09);
+  border: 1px solid rgba(27, 27, 27, 0.02);
+  margin-top: 13px;
+  padding: 18px 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  max-height: 450px;
+  overflow-y: scroll; }
+  .Dropdown-root .Dropdown-menu::-webkit-scrollbar {
+    background: none;
+    width: 3px; }
+  .Dropdown-root .Dropdown-menu::-webkit-scrollbar-track {
+    background: none;
+    width: 3px; }
+  .Dropdown-root .Dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #eef0f3;
+    border-radius: 50px;
+    width: 3px; }
+    .Dropdown-root .Dropdown-menu::-webkit-scrollbar-thumb:active {
+      background-color: rgba(0, 0, 0, 0.5); }
+  .Dropdown-root .Dropdown-menu .Dropdown-option {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgba(27, 27, 27, 0.4);
+    transition: color 0.2s;
+    padding: 5px 10px;
+    cursor: pointer;
+    letter-spacing: 0.015em;
+    text-align: center; }
+    .Dropdown-root .Dropdown-menu .Dropdown-option:hover {
+      color: #1b1b1b;
+      transition: color 0.35s; }
+
+header {
+  display: block;
+  text-align: center;
+  padding-top: 80px !important; }
+  header h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #1b1b1b; }
+
+.product-dropdown {
+  margin: auto;
+  display: block;
+  width: 140px;
+  height: 26px;
+  margin-top: 70px; }
+
+.column-chart {
+  display: block;
+  margin-top: 100px;
+  z-index: -1; }
+  .column-chart .apexcharts-canvas {
+    margin: auto; }
+    .column-chart .apexcharts-canvas .apexcharts-toolbar {
+      display: none; }
+
+.datatable {
+  display: block;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 100px; }
+  .datatable-topLabels {
+    font-weight: 400;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.45);
+    padding: 0 40px; }
+  .datatable-contentRow {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 0 40px; }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -446,6 +513,9 @@ template {
 [hidden] {
   display: none; }
 
+p {
+  margin: 0; }
+
 .scrlbar-hidden::-webkit-scrollbar-track {
   background: none;
   display: none; }
@@ -457,85 +527,3 @@ template {
 .scrlbar-hidden::-webkit-scrollbar-thumb {
   background: none;
   display: none; }
-
-.loader {
-  margin: 100px auto 0;
-  width: 70px;
-  text-align: center;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-
-.loader > div {
-  width: 14px;
-  height: 14px;
-  background-color: rgba(255, 255, 255, 0.15);
-  margin: auto;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  animation: sk-bouncedelay 1.4s infinite ease-in-out both; }
-
-.loader .bounce1 {
-  -webkit-animation-delay: -0.42s;
-  animation-delay: -0.42s; }
-
-.loader .bounce2 {
-  -webkit-animation-delay: -0.21s;
-  animation-delay: -0.21s;
-  margin: 0 5px; }
-
-@-webkit-keyframes sk-bouncedelay {
-  0%, 80%, 100% {
-    -webkit-transform: scale(0); }
-  40% {
-    -webkit-transform: scale(1); } }
-
-@keyframes sk-bouncedelay {
-  0%, 80%, 100% {
-    -webkit-transform: scale(0);
-    transform: scale(0); }
-  40% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-.topbar {
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 60px;
-  padding-bottom: 20px; }
-  .topbar header {
-    display: inline-block; }
-    .topbar header #tpb-logoi {
-      display: inline-block;
-      height: 24px;
-      width: auto; }
-    .topbar header #tpb-logot {
-      display: inline-block;
-      width: auto;
-      height: 26px;
-      margin-left: 18px; }
-  .topbar nav {
-    font-size: 0.75rem;
-    display: inline-block; }
-    .topbar nav span {
-      color: #000722;
-      margin-right: 45px;
-      transition: opacity 0.2s; }
-      .topbar nav span:hover {
-        opacity: 0.9;
-        transition: opacity 0.3s; }
-      .topbar nav span:last-child {
-        margin-right: 0px; }

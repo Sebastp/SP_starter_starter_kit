@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ApolloProvider } from 'react-apollo'
 
 
 import './assets/vendor/bootstrap/css/bootstrap.min.css'
@@ -10,15 +9,13 @@ import './assets/css/main.css'
 import App from './components/App'
 
 import * as serviceWorker from './serviceWorker';
-import apollo from './core/apollo'
+
 
 
 
 
 ReactDOM.render(
-  <ApolloProvider client={apollo}>
-    <App />
-  </ApolloProvider>,
+  <App />,
   document.getElementById('index')
 );
 
