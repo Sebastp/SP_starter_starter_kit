@@ -1,5 +1,5 @@
 {
-  "name": "Flowlity_Test",
+  "name": "SP_starter_kit",
   "version": "0.1.0",
   "author": "Sebastian Pobocha",
   "license": "ISC",
@@ -13,7 +13,6 @@
     "dev": "cd server && npm run dev",
     "all": "concurrently --kill-others-on-fail \"npm run dev\" \"npm run react\"  \"npm run css\"",
     "react": "cd client && npm start",
-    "test": "jest",
     "css": "cd client && npm run watch-css",
     "build-client": "cd client && npm install && npm run build-css && npm run build",
     "build-server": "cd server && npm install && npm run build",
@@ -28,7 +27,6 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "jest": "^24.9.0",
     "eslint-plugin-react": "^7.11.1"
   },
   "eslintConfig": {
